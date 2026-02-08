@@ -38,7 +38,7 @@ export function GetInTouchSection() {
         <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-orange-400/5 rounded-full blur-2xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <FadeIn>
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-6">
