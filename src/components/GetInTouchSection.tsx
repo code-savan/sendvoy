@@ -49,7 +49,7 @@ export function GetInTouchSection() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 md:gap-12 gap-8 items-start">
             {/* Contact Information */}
             <div className="space-y-8">
               <FadeIn delay={0.1}>
