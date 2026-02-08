@@ -24,8 +24,8 @@ export function HeroSection() {
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-4 leading-[1.1]">
-                Delivering <span className="text-orange-600">Possibilities</span> Across Nigeria
+              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-4 leading-[1.1]">
+                Delivering <br className="md:hidden" /> <span className="text-orange-600">Possibilities</span> Across Nigeria
               </h1>
               {/* <div className="text-2xl sm:text-3xl font-bold text-orange-600 mb-6">
                 Where Others Won't, When Others Can't!
@@ -33,7 +33,7 @@ export function HeroSection() {
             </FadeIn>
 
             <FadeIn delay={0.3}>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
+              <p className="md:text-lg text-sm font-medium text-gray-600 mb-8 leading-relaxed max-w-lg">
                 The B2B logistics partner built for Nigerian businesses. We deliver door-to-door across all 36 states—including places others won't go—with instant pricing, real-time tracking, and white-label solutions that help you scale. Fast, affordable, reliable.
               </p>
             </FadeIn>
