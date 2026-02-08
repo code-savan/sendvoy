@@ -11,7 +11,7 @@ import {
 import { FadeIn } from './ui/FadeIn';
 export function HeroSection() {
   return (
-    <section className="relative pt-26 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-white">
+    <section className="relative pt-32 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Content */}
