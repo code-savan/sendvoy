@@ -73,7 +73,7 @@ export function HeroSection() {
           <FadeIn
             delay={0.4}
             direction="left"
-            className="relative lg:h-[600px] flex items-center justify-center">
+            className="relative lg:h-[600px] h-[400px] flex items-center justify-center">
 
             <div className="relative w-full max-w-[600px] aspect-[4/3] perspective-1000">
               {/* Main Dashboard Card */}
