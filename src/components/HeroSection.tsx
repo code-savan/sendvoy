@@ -5,7 +5,8 @@ import {
   Package,
   MapPin,
   Truck,
-  CheckCircle2 } from
+  CheckCircle2,
+  SquareStack} from
 'lucide-react';
 import { FadeIn } from './ui/FadeIn';
 export function HeroSection() {
@@ -23,30 +24,28 @@ export function HeroSection() {
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-                Logistics infrastructure for{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-700">
-                  modern businesses
-                </span>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-4 leading-[1.1]">
+                Delivering Possibilities Across Nigeria
               </h1>
+              <div className="text-2xl sm:text-3xl font-bold text-orange-600 mb-6">
+                Where Others Won't, When Others Can't!
+              </div>
             </FadeIn>
 
             <FadeIn delay={0.3}>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-lg">
-                Sendvoy provides the API and dashboard to manage shipments,
-                track deliveries in real-time, and automate your entire
-                logistics workflow.
+                The B2B logistics partner built for Nigerian businesses. We deliver door-to-door across all 36 states—including places others won't go—with instant pricing, real-time tracking, and white-label solutions that help you scale. Fast, affordable, reliable.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.4} className="flex flex-col sm:flex-row gap-4">
               <button className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white transition-all duration-200 bg-gradient-to-r from-orange-600 to-orange-700 rounded-full hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-600">
-                Start Shipping
+                Get Instant Quote
                 <ArrowRight className="w-5 h-5 ml-2" />
               </button>
               <button className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-gray-700 transition-all duration-200 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200">
-                <Play className="w-4 h-4 mr-2 fill-current" />
-                Watch Demo
+                View Services
+                {/* <SquareStack className="w-4 h-4 mr-2 fill-current" /> */}
               </button>
             </FadeIn>
 

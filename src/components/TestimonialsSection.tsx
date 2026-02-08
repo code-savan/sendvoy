@@ -1,29 +1,46 @@
 import React from 'react';
 import { Star, Quote } from 'lucide-react';
 import { FadeIn } from './ui/FadeIn';
+
 export function TestimonialsSection() {
   const testimonials = [
-  {
-    quote:
-    'Sendvoy transformed our supply chain visibility. We went from guessing when shipments would arrive to knowing exactly where they are at all times.',
-    author: 'Sarah Jenkins',
-    role: 'VP of Operations',
-    company: 'TechFlow Inc.'
-  },
-  {
-    quote:
-    'The API documentation is world-class. Our engineering team was able to integrate Sendvoy into our custom ERP in less than a week.',
-    author: 'Michael Chen',
-    role: 'CTO',
-    company: 'GlobalTrade'
-  },
-  {
-    quote:
-    'Customer support that actually cares. When we had a critical shipment stuck in customs, the Sendvoy team worked through the night to resolve it.',
-    author: 'Elena Rodriguez',
-    role: 'Logistics Manager',
-    company: 'FreshFoods'
-  }];
+    {
+      quote: "Sendvoy has transformed our delivery operations. Their express delivery service in combination with their pick and pack services and warehousing are incredibly reliable, and our customers love the real-time tracking. Professional service every time!",
+      author: 'Miala Beauty',
+      role: 'Beauty & Cosmetics',
+      company: 'M'
+    },
+    {
+      quote: "Outstanding service! Their bulk delivery solutions have streamlined our supply chain significantly. The dedicated account manager ensures everything runs smoothly.",
+      author: 'DMY Global',
+      role: 'Import & Export',
+      company: 'D'
+    },
+    {
+      quote: "Their warehousing and fulfillment services have been a game-changer for our e-commerce business. Excellent inventory management and fast order processing.",
+      author: 'A.O.Stock',
+      role: 'E-commerce',
+      company: 'B'
+    },
+    {
+      quote: "A very reliable delivery service. Our products reach customers across safely and on time. Great communication throughout the process.",
+      author: 'VSP Botanics',
+      role: 'Health & Wellness',
+      company: 'V'
+    },
+    {
+      quote: "Professional service with competitive pricing. Their scheduled delivery option works perfectly for our regular supply deliveries. Highly recommended!",
+      author: 'Amala Central Foods',
+      role: 'Fast Food Services',
+      company: 'A'
+    },
+    {
+      quote: "Excellent customer service and fast delivery times. Their WhatsApp support makes communication seamless. Perfect partner for growing businesses.",
+      author: 'Feramone Beauty',
+      role: 'Beauty & Personal Care',
+      company: 'F'
+    }
+  ];
 
   return (
     <section className="py-24 bg-white">

@@ -14,20 +14,29 @@ export function Navbar() {
   const navLinks = [
   {
     name: 'Services',
-    href: '#'
+    href: '#services'
   },
   {
-    name: 'Tracking',
-    href: '#'
+    name: 'Warehousing',
+    href: '#warehousing'
   },
   {
     name: 'Pricing',
-    href: '#'
+    href: '#pricing'
+  },
+  {
+    name: 'Calculator',
+    href: '#calculator'
   },
   {
     name: 'Blog',
-    href: '#'
-  }];
+    href: '#blog'
+  },
+  {
+    name: 'Contact',
+    href: '#get-in-touch'
+  }
+];
 
   return (
     <nav
@@ -51,7 +60,15 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-600 hover:text-orange-600 transition-colors">
+              className="text-sm font-medium text-gray-600 hover:text-orange-600 transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                const element = document.querySelector(link.href);
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
 
                 {link.name}
               </a>
@@ -108,10 +125,19 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="block px-3 py-3 text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-gray-50 rounded-lg">
+              className="block px-3 py-3 text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-gray-50 rounded-lg"
+              onClick={(e) => {
+                e.preventDefault();
+                const element = document.querySelector(link.href);
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+                setIsMobileMenuOpen(false);
+              }}
+            >
 
-                  {link.name}
-                </a>
+                {link.name}
+              </a>
             )}
               <div className="pt-4 flex flex-col space-y-3">
                 <button className="w-full text-center px-4 py-3 text-base font-medium text-gray-600 hover:text-gray-900 border border-gray-200 rounded-lg">

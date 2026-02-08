@@ -1,13 +1,18 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { FadeIn } from './ui/FadeIn';
+
 export function CTASection() {
   return (
-    <section className="py-24 bg-gradient-to-br from-orange-600 to-orange-700 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/10 blur-3xl"></div>
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-orange-500/20 blur-3xl"></div>
+    <section className="py-24 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src="https://images.unsplash.com/photo-1646625573908-82208b03cfa4?q=80&w=2075"
+          alt="Logistics background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-600/90 to-orange-700/90"></div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
