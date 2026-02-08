@@ -47,7 +47,7 @@ export function CalculatorSection() {
                 <input
                   type="text"
                   placeholder="City or Zip"
-                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                   required />
 
               </div>
@@ -58,7 +58,7 @@ export function CalculatorSection() {
                 <input
                   type="text"
                   placeholder="City or Zip"
-                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+                  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                   required />
 
               </div>
@@ -66,7 +66,7 @@ export function CalculatorSection() {
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   Weight
                 </label>
-                <select className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white">
+                <select className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all bg-white">
                   <option>0-5 kg</option>
                   <option>5-20 kg</option>
                   <option>20-100 kg</option>
@@ -77,7 +77,7 @@ export function CalculatorSection() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full flex items-center justify-center px-6 py-2.5 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:shadow-lg hover:shadow-blue-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-70 transition-all">
+                  className="w-full flex items-center justify-center px-6 py-2.5 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-orange-600 to-orange-700 hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 disabled:opacity-70 transition-all">
 
                   {loading ? 'Calculating...' : 'Calculate'}
                 </button>
@@ -101,25 +101,25 @@ export function CalculatorSection() {
                 }}
                 className="mt-8 pt-8 border-t border-gray-100 overflow-hidden">
 
-                  <div className="flex flex-col sm:flex-row items-center justify-between bg-blue-50 rounded-xl p-6">
+                  <div className="flex flex-col sm:flex-row items-center justify-between bg-orange-50 rounded-xl p-6">
                     <div>
-                      <div className="text-sm text-blue-600 font-medium uppercase tracking-wide mb-1">
+                      <div className="text-sm text-orange-600 font-medium uppercase tracking-wide mb-1">
                         Estimated Cost
                       </div>
                       <div className="text-3xl font-bold text-gray-900">
                         ${result.cost.toFixed(2)}
                       </div>
                     </div>
-                    <div className="hidden sm:block h-10 w-px bg-blue-200 mx-6"></div>
+                    <div className="hidden sm:block h-10 w-px bg-orange-200 mx-6"></div>
                     <div className="mt-4 sm:mt-0 text-center sm:text-left">
-                      <div className="text-sm text-blue-600 font-medium uppercase tracking-wide mb-1">
+                      <div className="text-sm text-orange-600 font-medium uppercase tracking-wide mb-1">
                         Delivery Time
                       </div>
                       <div className="text-3xl font-bold text-gray-900">
                         {result.days} Days
                       </div>
                     </div>
-                    <button className="mt-4 sm:mt-0 px-6 py-2 bg-white text-blue-600 font-medium rounded-lg border border-blue-200 hover:bg-blue-50 transition-colors">
+                    <button className="mt-4 sm:mt-0 px-6 py-2 bg-white text-orange-600 font-medium rounded-lg border border-orange-200 hover:bg-orange-50 transition-colors">
                       Book Now
                     </button>
                   </div>

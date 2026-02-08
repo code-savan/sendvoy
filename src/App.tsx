@@ -15,7 +15,7 @@ import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
 export function App() {
   return (
-    <div className="min-h-screen bg-white font-sans text-gray-900 antialiased selection:bg-blue-100 selection:text-blue-900">
+    <div className="min-h-screen bg-white font-sans text-gray-900 antialiased selection:bg-orange-100 selection:text-orange-900">
       <Navbar />
       <main>
         <HeroSection />

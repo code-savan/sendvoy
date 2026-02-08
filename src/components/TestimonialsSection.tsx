@@ -40,7 +40,7 @@ export function TestimonialsSection() {
           {testimonials.map((item, index) =>
           <FadeIn key={index} delay={index * 0.1}>
               <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow relative h-full flex flex-col">
-                <Quote className="w-10 h-10 text-blue-100 mb-6" />
+                <Quote className="w-10 h-10 text-orange-100 mb-6" />
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) =>
                 <Star

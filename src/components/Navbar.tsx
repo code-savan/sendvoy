@@ -37,7 +37,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white font-bold text-lg">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-600 to-orange-700 flex items-center justify-center text-white font-bold text-lg">
               S
             </div>
             <span className="text-xl font-bold tracking-tight text-gray-900">
@@ -51,7 +51,7 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
+              className="text-sm font-medium text-gray-600 hover:text-orange-600 transition-colors">
 
                 {link.name}
               </a>
@@ -108,7 +108,7 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="block px-3 py-3 text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg">
+              className="block px-3 py-3 text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-gray-50 rounded-lg">
 
                   {link.name}
                 </a>
@@ -117,7 +117,7 @@ export function Navbar() {
                 <button className="w-full text-center px-4 py-3 text-base font-medium text-gray-600 hover:text-gray-900 border border-gray-200 rounded-lg">
                   Log in
                 </button>
-                <button className="w-full text-center px-4 py-3 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-sm">
+                <button className="w-full text-center px-4 py-3 text-base font-medium text-white bg-orange-600 hover:bg-orange-700 rounded-lg shadow-sm">
                   Get Started
                 </button>
               </div>

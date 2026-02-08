@@ -16,8 +16,8 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="max-w-2xl">
             <FadeIn delay={0.1}>
-              <div className="inline-flex items-center rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-sm font-medium text-blue-600 mb-6">
-                <span className="flex h-2 w-2 rounded-full bg-blue-600 mr-2 animate-pulse"></span>
+              <div className="inline-flex items-center rounded-full border border-orange-100 bg-orange-50 px-3 py-1 text-sm font-medium text-orange-600 mb-6">
+                <span className="flex h-2 w-2 rounded-full bg-orange-600 mr-2 animate-pulse"></span>
                 New: Real-time global tracking API
               </div>
             </FadeIn>
@@ -25,7 +25,7 @@ export function HeroSection() {
             <FadeIn delay={0.2}>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
                 Logistics infrastructure for{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-700">
                   modern businesses
                 </span>
               </h1>
@@ -40,7 +40,7 @@ export function HeroSection() {
             </FadeIn>
 
             <FadeIn delay={0.4} className="flex flex-col sm:flex-row gap-4">
-              <button className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white transition-all duration-200 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full hover:shadow-lg hover:shadow-blue-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+              <button className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white transition-all duration-200 bg-gradient-to-r from-orange-600 to-orange-700 rounded-full hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-600">
                 Start Shipping
                 <ArrowRight className="w-5 h-5 ml-2" />
               </button>
@@ -96,13 +96,13 @@ export function HeroSection() {
                     {[1, 2, 3, 4, 5].map((i) =>
                     <div
                       key={i}
-                      className={`h-8 w-full rounded-lg ${i === 2 ? 'bg-blue-50 text-blue-600' : 'hover:bg-gray-100'} flex items-center px-2`}>
+                      className={`h-8 w-full rounded-lg ${i === 2 ? 'bg-orange-50 text-orange-600' : 'hover:bg-gray-100'} flex items-center px-2`}>
 
                         <div
-                        className={`w-4 h-4 rounded ${i === 2 ? 'bg-blue-200' : 'bg-gray-200'} mr-2`}>
+                        className={`w-4 h-4 rounded ${i === 2 ? 'bg-orange-200' : 'bg-gray-200'} mr-2`}>
                       </div>
                         <div
-                        className={`h-2 w-16 rounded ${i === 2 ? 'bg-blue-200' : 'bg-gray-200'}`}>
+                        className={`h-2 w-16 rounded ${i === 2 ? 'bg-orange-200' : 'bg-gray-200'}`}>
                       </div>
                       </div>
                     )}
@@ -116,12 +116,12 @@ export function HeroSection() {
                       {
                         label: 'Active Shipments',
                         val: '1,248',
-                        color: 'blue'
+                        color: 'orange'
                       },
                       {
                         label: 'In Transit',
                         val: '842',
-                        color: 'indigo'
+                        color: 'orange'
                       },
                       {
                         label: 'Delivered',
@@ -143,12 +143,12 @@ export function HeroSection() {
 
                     {/* Map Area */}
                     <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-1 h-48 relative overflow-hidden group">
-                      <div className="absolute inset-0 bg-blue-50/30"></div>
+                      <div className="absolute inset-0 bg-orange-50/30"></div>
                       {/* Abstract Map Dots */}
                       {[...Array(10)].map((_, i) =>
                       <div
                         key={i}
-                        className="absolute w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-pulse"
+                        className="absolute w-2 h-2 bg-orange-400 rounded-full opacity-60 animate-pulse"
                         style={{
                           top: `${Math.random() * 80 + 10}%`,
                           left: `${Math.random() * 80 + 10}%`,
@@ -161,7 +161,7 @@ export function HeroSection() {
                         <path
                           d="M 50 150 Q 150 50 300 100 T 500 80"
                           fill="none"
-                          stroke="#3B82F6"
+                          stroke="#FB923C"
                           strokeWidth="2"
                           strokeDasharray="4 4"
                           className="opacity-50" />
@@ -181,9 +181,9 @@ export function HeroSection() {
                         <div className="flex items-center gap-2 mb-1">
                           <div className="w-2 h-2 rounded-full bg-gray-300"></div>
                           <div className="h-1 w-full bg-gray-100 rounded">
-                            <div className="h-1 w-2/3 bg-blue-500 rounded"></div>
+                            <div className="h-1 w-2/3 bg-orange-500 rounded"></div>
                           </div>
-                          <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+                          <div className="w-2 h-2 rounded-full bg-orange-500"></div>
                         </div>
                         <div className="flex justify-between text-[10px] text-gray-400">
                           <span>NY</span>
@@ -217,7 +217,7 @@ export function HeroSection() {
               </div>
 
               {/* Decorative Elements behind */}
-              <div className="absolute -z-10 top-10 -right-10 w-full h-full bg-gradient-to-br from-blue-100/50 to-indigo-100/50 rounded-2xl transform rotate-6 scale-95 blur-sm"></div>
+              <div className="absolute -z-10 top-10 -right-10 w-full h-full bg-gradient-to-br from-orange-100/50 to-orange-100/50 rounded-2xl transform rotate-6 scale-95 blur-sm"></div>
             </div>
           </FadeIn>
         </div>

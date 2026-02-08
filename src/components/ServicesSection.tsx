@@ -18,7 +18,7 @@ const topServices = [
   cta: 'Book Now',
   primary: true,
   icon: Zap,
-  color: 'blue'
+  color: 'orange'
 },
 {
   title: 'Standard Delivery',
@@ -36,7 +36,7 @@ const topServices = [
   cta: 'Book Now',
   primary: true,
   icon: Package,
-  color: 'indigo'
+  color: 'orange'
 },
 {
   title: 'Scheduled Delivery',
@@ -121,7 +121,7 @@ function ServiceCard({ service }: {service: any;}) {
       <div className="mb-6 pb-6 border-b border-gray-50">
         <div className="flex flex-col">
           <div className="flex items-baseline gap-2">
-            <span className="text-xl font-bold text-blue-600">
+            <span className="text-xl font-bold text-orange-600">
               {service.price}
             </span>
             {service.originalPrice &&
@@ -137,7 +137,7 @@ function ServiceCard({ service }: {service: any;}) {
       <ul className="space-y-3 mb-8 flex-grow">
         {service.features.map((feature: string, i: number) =>
         <li key={i} className="flex items-start">
-            <Check className="w-5 h-5 text-blue-600 mr-3 flex-shrink-0 mt-0.5" />
+            <Check className="w-5 h-5 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
             <span className="text-gray-600 text-sm">{feature}</span>
           </li>
         )}
@@ -145,7 +145,7 @@ function ServiceCard({ service }: {service: any;}) {
 
       {/* CTA */}
       <button
-        className={`w-full py-3 px-4 rounded-lg font-medium transition-all duration-200 ${service.primary ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:shadow-lg hover:shadow-blue-500/30' : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300'}`}>
+        className={`w-full py-3 px-4 rounded-lg font-medium transition-all duration-200 ${service.primary ? 'bg-gradient-to-r from-orange-600 to-orange-700 text-white hover:shadow-lg hover:shadow-orange-500/30' : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300'}`}>
 
         {service.cta}
       </button>

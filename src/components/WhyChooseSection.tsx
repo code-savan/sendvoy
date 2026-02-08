@@ -49,9 +49,9 @@ export function WhyChooseSection() {
             <FadeIn
               key={i}
               delay={i * 0.1}
-              className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:border-blue-200 transition-colors">
+              className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:border-orange-200 transition-colors">
 
-                <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-blue-600/20">
+                <div className="w-10 h-10 rounded-full bg-orange-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-orange-600/20">
                   <item.icon className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">

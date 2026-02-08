@@ -8,7 +8,7 @@ export function BlogSection() {
     excerpt:
     'How autonomous vehicles and drones are reshaping the final leg of logistics.',
     category: 'Trends',
-    color: 'blue'
+    color: 'orange'
   },
   {
     title: 'Optimizing Supply Chains with AI',
@@ -40,7 +40,7 @@ export function BlogSection() {
           <FadeIn delay={0.1} className="hidden sm:block">
             <a
               href="#"
-              className="text-blue-600 font-medium hover:text-blue-700 flex items-center gap-1 group">
+              className="text-orange-600 font-medium hover:text-orange-700 flex items-center gap-1 group">
 
               View all posts{' '}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -64,13 +64,13 @@ export function BlogSection() {
                     </span>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">
                   {post.title}
                 </h3>
                 <p className="text-gray-600 mb-4 line-clamp-2">
                   {post.excerpt}
                 </p>
-                <div className="flex items-center text-blue-600 font-medium text-sm">
+                <div className="flex items-center text-orange-600 font-medium text-sm">
                   Read More{' '}
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </div>

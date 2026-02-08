@@ -83,7 +83,7 @@ export function TrackingSection() {
                 transition={{
                   delay: index * 0.2
                 }}
-                className={`w-12 h-12 rounded-full flex items-center justify-center border-2 transition-colors duration-500 ${step.status === 'completed' ? 'bg-blue-600 border-blue-600 text-white' : step.status === 'active' ? 'bg-white border-blue-600 text-blue-600 shadow-[0_0_0_4px_rgba(37,99,235,0.2)]' : 'bg-white border-gray-200 text-gray-300'}`}>
+                className={`w-12 h-12 rounded-full flex items-center justify-center border-2 transition-colors duration-500 ${step.status === 'completed' ? 'bg-orange-600 border-orange-600 text-white' : step.status === 'active' ? 'bg-white border-orange-600 text-orange-600 shadow-[0_0_0_4px_rgba(251,146,60,0.2)]' : 'bg-white border-gray-200 text-gray-300'}`}>
 
                   {step.status === 'completed' ?
                 <Check className="w-6 h-6" /> :
@@ -121,7 +121,7 @@ export function TrackingSection() {
                 duration: 1.5,
                 ease: 'easeInOut'
               }}
-              className="absolute top-6 left-0 h-0.5 bg-blue-600 -z-10" />
+              className="absolute top-6 left-0 h-0.5 bg-orange-600 -z-10" />
 
           </div>
 
@@ -134,7 +134,7 @@ export function TrackingSection() {
               className="flex items-start gap-4 relative z-10">
 
                 <div
-                className={`w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center border-2 ${step.status === 'completed' ? 'bg-blue-600 border-blue-600 text-white' : step.status === 'active' ? 'bg-white border-blue-600 text-blue-600' : 'bg-white border-gray-200 text-gray-300'}`}>
+                className={`w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center border-2 ${step.status === 'completed' ? 'bg-orange-600 border-orange-600 text-white' : step.status === 'active' ? 'bg-white border-orange-600 text-orange-600' : 'bg-white border-gray-200 text-gray-300'}`}>
 
                   {step.status === 'completed' && <Check className="w-3 h-3" />}
                 </div>
