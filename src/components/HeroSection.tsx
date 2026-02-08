@@ -11,7 +11,7 @@ import {
 import { FadeIn } from './ui/FadeIn';
 export function HeroSection() {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+    <section className="relative pt-26 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Content */}
@@ -19,21 +19,21 @@ export function HeroSection() {
             <FadeIn delay={0.1}>
               <div className="inline-flex items-center rounded-full border border-orange-100 bg-orange-50 px-3 py-1 text-sm font-medium text-orange-600 mb-6">
                 <span className="flex h-2 w-2 rounded-full bg-orange-600 mr-2 animate-pulse"></span>
-                New: Real-time global tracking API
+                Where Others Won't, When Others Can't!
               </div>
             </FadeIn>
 
             <FadeIn delay={0.2}>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-4 leading-[1.1]">
-                Delivering Possibilities Across Nigeria
+                Delivering <span className="text-orange-600">Possibilities</span> Across Nigeria
               </h1>
-              <div className="text-2xl sm:text-3xl font-bold text-orange-600 mb-6">
+              {/* <div className="text-2xl sm:text-3xl font-bold text-orange-600 mb-6">
                 Where Others Won't, When Others Can't!
-              </div>
+              </div> */}
             </FadeIn>
 
             <FadeIn delay={0.3}>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-lg">
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
                 The B2B logistics partner built for Nigerian businesses. We deliver door-to-door across all 36 states—including places others won't go—with instant pricing, real-time tracking, and white-label solutions that help you scale. Fast, affordable, reliable.
               </p>
             </FadeIn>

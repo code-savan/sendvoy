@@ -26,7 +26,11 @@ export function GetInTouchSection() {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50/30 relative overflow-hidden">
+    <section
+    className="py-24 bg-gradient-to-br from-gray-50 via-white
+    to-orange-50/30 relative overflow-hidden"
+    id="get-in-touch"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 w-32 h-32 bg-orange-200/20 rounded-full blur-3xl" />
